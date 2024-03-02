@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.page-actions-cont {
+    background-color: #218c74;
+    height: 3rem;
+    display: flex;
+    align-items: flex-end;
+}
+
+.page-action {
+    margin: 0.5rem;
+    color: #f1f2f6;
+}
+
+.cellprops-actions-cont {
+    background-color: lightsalmon;
+    height: 3rem;
+    padding-left: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.cellprops-actions-cont>* {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.cellprops-actions-cont>* {
+    border: none;
+    border-radius: 4px;
+    outline: none;
+}
+
+.font-family-prop {
+    padding: 0.25rem;
+}
+
+.font-size-prop {
+    padding: 0.25rem;
+}
+
+.formula-actions-cont {
+    background-color: lightblue;
+    height: 3rem;
+}
+
+.sheet-actions-cont {
+    height: 3rem;
+    background-color: lightcoral;
+}
+
+.grid-cont {
+    height: calc(100vh - 3rem - 3rem - 3rem - 3rem);
+}
